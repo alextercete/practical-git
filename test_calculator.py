@@ -2,9 +2,9 @@ import unittest
 from calculator import Calculator
 
 class CalculatorTests(unittest.TestCase):
-    def test_sum(self):
+    def test_addition(self):
         calculator = Calculator()
-        self.assertEqual(3, calculator.sum(1, 2))
+        self.assertEqual(3, calculator.add(1, 2))
 
     def test_subtraction(self):
         calculator = Calculator()
