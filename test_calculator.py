@@ -21,5 +21,8 @@ class CalculatorTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             self.calculator.divide(12, 0)
 
+    def test_division_resulting_in_floating_point_number(self):
+        self.assertAlmostEqual(2.5, self.calculator.divide(5, 2))
+
 if __name__ == '__main__':
     unittest.main()
