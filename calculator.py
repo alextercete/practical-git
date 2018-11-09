@@ -4,3 +4,6 @@ class Calculator:
 
     def subtract(self, operand1, operand2):
         return operand1 - operand2
+
+    def multiply(self, operand1, operand2):
+        return operand1 * operand2
